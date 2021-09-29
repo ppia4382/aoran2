@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.andres.aoran.ResultsActivity">
+
+
+    <TextView
+        android:id="@+id/grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center_horizontal"
+        android:padding="16dp"
+        android:fontFamily="@font/luckiest_guy"
+        android:text="@string/you_did_it"
+        android:textAlignment="center"
+        android:textColor="@color/purple_500"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/outOf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/grade"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="monospace"
+        android:padding="16dp"
+        android:text="@string/you_got_8_out_of_9"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/retry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/outOf"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="4dp"
+        android:background="#4CAF50"
+        android:fontFamily="monospace"
+        android:padding="8dp"
+        android:text="@string/one_more_time"
+        android:textColor="#F1EFF4"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/quit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/retry"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="4dp"
+        android:background="#4CAF50"
+        android:fontFamily="monospace"
+        android:padding="8dp"
+        android:text="@string/end_game"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="TextContrastCheck" />
+
+</RelativeLayout>

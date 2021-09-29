@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AorAn2</string>
+    <string name="score">score</string>
+    <string name="object">object</string>
+    <string name="_0">0</string>
+    <string name="bird">bird</string>
+    <string name="you_did_it">You did it!</string>
+    <string name="you_got_8_out_of_9">You got 4 out of 5</string>
+    <string name="one_more_time">One more time!</string>
+    <string name="end_game">END GAME</string>
+</resources>

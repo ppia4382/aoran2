@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:circularflow_angles="5dp"
+    tools:context="com.andres.aoran.MainActivity">
+
+    <Button
+        android:id="@+id/button1"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="161dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="97dp"
+        android:layout_marginBottom="289dp"
+        android:onClick="MainActivity"
+        android:text="START"
+        android:textSize="20sp"
+        app:backgroundTint="#673AB7"
+        app:elevation="2sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextView"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="HardcodedText,OnClick" />
+
+    <TextView
+        android:id="@+id/TextView"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:layout_marginTop="68dp"
+        android:fontFamily="@font/luckiest_guy"
+        android:gravity="center_horizontal"
+        android:text="A or AN ?"
+        android:textColor="@color/purple_500"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="InvalidId" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
